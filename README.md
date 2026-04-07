@@ -86,7 +86,7 @@ flutter test
 Support chat is configured in `lib/main.dart` inside `SupportPage`:
 
 - `baseUrl`: `https://api.g-tateth.com`
-- `tenantDomain`: `g-tateth-solutions`
+- `tenantDomain`: `your-tenant-domain-here`
 - `customer`: basic identity fields (`firstName`, `lastName`, `email`)
 
 If you need environment-specific values (dev/staging/prod), consider moving these constants to a dedicated config layer (for example using `--dart-define` values).

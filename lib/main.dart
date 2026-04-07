@@ -104,7 +104,7 @@ class SupportPage extends StatelessWidget {
         child: GtatethChatWidget(
           config: const WidgetClientConfig(
             baseUrl: 'https://api.g-tateth.com',
-            tenantDomain: 'g-tateth-solutions',
+            tenantDomain: 'your-tenant-domain-here',
           ),
           customer: ChatCustomer(
             firstName: "Abimbola",
