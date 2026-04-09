@@ -95,10 +95,10 @@ packages:
     dependency: "direct main"
     description:
       name: gtateth_flutter_sdk
-      sha256: bc581e6f176814d308e9265930266422e5b00491f2e773b2d7a9a2e4ec0c1ed0
+      sha256: "50f39925ba5f60526f6ee75c3f66cac81d5d17315aeb2357cedf2de86750e3a2"
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.0"
+    version: "0.1.6"
   http:
     dependency: transitive
     description:

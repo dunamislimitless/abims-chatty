@@ -102,10 +102,22 @@ class SupportPage extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.only(bottom: 20.0),
         child: GtatethChatWidget(
+          // settings: ChatWidgetSettings(
+          //   title: 'Support Chat',
+          //   emptyStateText: 'Welcome! How can we help?',
+          //   messageInputHintText: 'Wetin Dey Sup?',
+          //   showConnectionIndicator: true,
+          //   showAgentNames: true,
+          //   showErrorBanner: true,
+          //   messageMaxWidth: 360,
+          //   composerMinLines: 1,
+          //   composerMaxLines: 6,
+          // ),
           config: const WidgetClientConfig(
             baseUrl: 'https://api.g-tateth.com',
-            tenantDomain: 'your-tenant-domain-here',
+            tenantDomain: "g-tateth-solutions",
           ),
+          allowInAppCustomization: true,
           customer: ChatCustomer(
             firstName: "Abimbola",
             lastName: "Ogundipe",
