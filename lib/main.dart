@@ -117,6 +117,7 @@ class SupportPage extends StatelessWidget {
             baseUrl: 'https://api.g-tateth.com',
             tenantDomain: "g-tateth-solutions",
           ),
+          persistInAppCustomization: true,
           allowInAppCustomization: true,
           customer: ChatCustomer(
             firstName: "Abimbola",
